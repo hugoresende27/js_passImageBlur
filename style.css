@@ -24,7 +24,7 @@
 
 body
 {
-    background-color: var(--charcoal-cor);
+   
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Mulish',sans-serif;
     color: #fff;
@@ -36,7 +36,67 @@ body
     overflow: hidden; /*BARRA DE SCROLL DOWN, HIDDEN ESCONDIDA*/
     margin: 0;
     overflow-x: hidden; /*REMOVER BARRA DE SCROLL HORIZONTAL*/
+    
 }
+
+.fundo
+{
+    background: url('./img/2677518.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: -0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(10px);      /*  blur(10px) *//*FUNDO DESFOCADO*/
+}
+
+.formulario {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    box-shadow :4px 4px 4px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.formulario h1 {
+    margin: 0;
+}
+.formulario h3 {
+    margin: 0 0 10px ;
+}
+
+.formulario label {
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.formulario input {
+    margin: 10px 0;
+    border-radius: 5px;
+    
+}
+.formulario input:active{
+    font-size: 20px;
+}
+
+
+.formulario button {
+    background-color: #000;
+    color:#fff;
+    border: 0;
+    height: 35px;
+    font-family: inherit;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
