@@ -48,7 +48,17 @@ body
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    filter: blur(10px);      /*  blur(10px) *//*FUNDO DESFOCADO*/
+    filter: blur(20px);      /*  blur(10px) *//*FUNDO DESFOCADO*/
+}
+.background {
+    background: url('./img/2677518.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(10px);
 }
 
 .formulario {
