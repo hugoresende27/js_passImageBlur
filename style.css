@@ -27,7 +27,6 @@ body
    
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Mulish',sans-serif;
-    color: #fff;
     display: flex;          /*coloca tudo em linha*/
     flex-direction: column; /*coloca tudo em coluna*/
     align-items: center;    /*alinha horizontalmente*/
@@ -48,18 +47,10 @@ body
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    filter: blur(20px);      /*  blur(10px) *//*FUNDO DESFOCADO*/
+    filter: blur(20px);      /*  FUNDO DESFOCADO blur(10px) */
 }
-.background {
-    background: url('./img/2677518.jpg') no-repeat center center/cover;
-    position: absolute;
-    top: -20px;
-    bottom: -20px;
-    left: -20px;
-    right: -20px;
-    z-index: -1;
-    filter: blur(10px);
-}
+
+
 
 .formulario {
     background-color: #fff;
@@ -102,13 +93,7 @@ body
     margin: 20px 0 0 0;
     border-radius: 5px;
     cursor: pointer;
-}
-
-
-
-
-
-
+} 
 
 
 /*///////////////MEDIA QUERYS////////////////////////////////////////////////////////////////////*/
